@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./Imagenes/Logo.png" alt="Logo del sitio">
+    </header>
+    <main class="presentacion">
+        <section class="presentacion__proceso">
+            <textarea id="inputTexto" class="presentacion__proceso__solicitud" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="alerta">
+                <img src="./Imagenes/bi_exclamation-circle-fill.png" alt="Alerta">
+                <span class="presentacion__proceso__alerta">Solo letras minúsculas y sin acentos</span>
+            </div>
+            <div class="botones">
+                <button id="btnEncriptar" class="boton">Encriptar</button>
+                <button id="btnDesencriptar" class="boton">Desencriptar</button>
+            </div>
+        </section>
+        <section class="presentacion__resultado">
+            <img id="imgResultado" class="fondo" src="./Imagenes/Resultado.png" alt="Resultado">
+            <div class="cuadroResultado">
+                <h2 id="parrafoResultado">Ningún mensaje fue encontrado</h2>
+                <p id="textoResultado">Ingresa el texto que desees encriptar o desencriptar.</p> <!-- Elemento para mostrar el texto encriptado/desencriptado -->
+            </div>
+                <div class="botonCopiar">
+                    <button class="botonCopiarEstilo">Copiar Texto</button>
+                </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Diseñado por <strong>Diego León Amórtegui</strong></p>
+        <div class="footer__iconos">
+            <a href="https://github.com/diegoleoam" target="_blank">
+                <img src="./Imagenes/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/die-ghjgfj/" target="_blank">
+                <img src="./Imagenes/linkedin.png" alt="LinkedIn">
+            </a>
+        </div>
+    </footer>
+    <script src="app.js"></script>    
+</body>
+</html>
