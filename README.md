@@ -21,9 +21,6 @@ También puede revertir esta transformación para recuperar el texto original.
 - **Desencriptar texto:** Revierta la encriptación para recuperar el texto original.
 - **Copiar texto:** Copia el texto encriptado o desencriptado al portapapeles con un clic.
 
-## Capturas de Pantalla
-
-![Captura de Pantalla](./Imagenes/screenshot.png)
 
 ## Instalación
 
